@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F06A69320C6CBFE00715738 /* CoinDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F06A69220C6CBFE00715738 /* CoinDetailViewController.swift */; };
+		1F1B564520CDC66F0090211A /* CoinRealmData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1B564420CDC66F0090211A /* CoinRealmData.swift */; };
+		1F1B68BF20B3345400132378 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1B68BE20B3345400132378 /* CoinModel.swift */; };
+		1F7679C420BE27F60063083F /* CoinTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7679C320BE27F60063083F /* CoinTableViewCell.swift */; };
 		1F85EF0320B0A47A008C081E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F85EF0220B0A47A008C081E /* AppDelegate.swift */; };
-		1F85EF0520B0A47A008C081E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F85EF0420B0A47A008C081E /* ViewController.swift */; };
+		1F85EF0520B0A47A008C081E /* CoinTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F85EF0420B0A47A008C081E /* CoinTableViewController.swift */; };
 		1F85EF0820B0A47A008C081E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F85EF0620B0A47A008C081E /* Main.storyboard */; };
-		1F85EF0B20B0A47A008C081E /* Filo_FinalUdacityProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F85EF0920B0A47A008C081E /* Filo_FinalUdacityProject.xcdatamodeld */; };
 		1F85EF0D20B0A47C008C081E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F85EF0C20B0A47C008C081E /* Assets.xcassets */; };
 		1F85EF1020B0A47C008C081E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F85EF0E20B0A47C008C081E /* LaunchScreen.storyboard */; };
+		1FF7012020C1E2F10092DBD0 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF7011F20C1E2F10092DBD0 /* Alerts.swift */; };
+		1FF7012220C1E39C0092DBD0 /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF7012120C1E39C0092DBD0 /* GCD.swift */; };
+		B761FA5348D345561DBFF87C /* Pods_Filo_FinalUdacityProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B68DEA9E5ABCAD48E73570 /* Pods_Filo_FinalUdacityProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FDF74A57E78CEBE0A860F87 /* Pods-Filo-FinalUdacityProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Filo-FinalUdacityProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-Filo-FinalUdacityProject/Pods-Filo-FinalUdacityProject.release.xcconfig"; sourceTree = "<group>"; };
+		1F06A69220C6CBFE00715738 /* CoinDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailViewController.swift; sourceTree = "<group>"; };
+		1F1B564420CDC66F0090211A /* CoinRealmData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRealmData.swift; sourceTree = "<group>"; };
+		1F1B564820CDE83F0090211A /* Filo-FinalUdacityProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Filo-FinalUdacityProject.entitlements"; sourceTree = "<group>"; };
+		1F1B68BE20B3345400132378 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
+		1F7679C320BE27F60063083F /* CoinTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinTableViewCell.swift; sourceTree = "<group>"; };
 		1F85EEFF20B0A47A008C081E /* Filo-FinalUdacityProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Filo-FinalUdacityProject.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F85EF0220B0A47A008C081E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1F85EF0420B0A47A008C081E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F85EF0420B0A47A008C081E /* CoinTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinTableViewController.swift; sourceTree = "<group>"; };
 		1F85EF0720B0A47A008C081E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1F85EF0A20B0A47A008C081E /* Filo_FinalUdacityProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Filo_FinalUdacityProject.xcdatamodel; sourceTree = "<group>"; };
 		1F85EF0C20B0A47C008C081E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F85EF0F20B0A47C008C081E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F85EF1120B0A47C008C081E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FF7011E20C1DE5B0092DBD0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1FF7011F20C1E2F10092DBD0 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		1FF7012120C1E39C0092DBD0 /* GCD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCD.swift; sourceTree = "<group>"; };
+		4DBA12D237FC1BDAF49567F8 /* Pods-Filo-FinalUdacityProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Filo-FinalUdacityProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Filo-FinalUdacityProject/Pods-Filo-FinalUdacityProject.debug.xcconfig"; sourceTree = "<group>"; };
+		77B68DEA9E5ABCAD48E73570 /* Pods_Filo_FinalUdacityProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Filo_FinalUdacityProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B761FA5348D345561DBFF87C /* Pods_Filo_FinalUdacityProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F7679C520BE3BBB0063083F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F1B68BE20B3345400132378 /* CoinModel.swift */,
+				1F1B564420CDC66F0090211A /* CoinRealmData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1F7679C620BE3BC20063083F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1F7679C320BE27F60063083F /* CoinTableViewCell.swift */,
+				1FF7011F20C1E2F10092DBD0 /* Alerts.swift */,
+				1F85EF0620B0A47A008C081E /* Main.storyboard */,
+				1F85EF0E20B0A47C008C081E /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1F7679C720BE3BC80063083F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1F85EF0420B0A47A008C081E /* CoinTableViewController.swift */,
+				1F06A69220C6CBFE00715738 /* CoinDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		1F85EEF620B0A47A008C081E = {
 			isa = PBXGroup;
 			children = (
+				1FF7011E20C1DE5B0092DBD0 /* README.md */,
 				1F85EF0120B0A47A008C081E /* Filo-FinalUdacityProject */,
 				1F85EF0020B0A47A008C081E /* Products */,
+				D4B599230FBADB0D67D587D0 /* Pods */,
+				CAEFE004628D3017CF4EAE3D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +105,33 @@
 		1F85EF0120B0A47A008C081E /* Filo-FinalUdacityProject */ = {
 			isa = PBXGroup;
 			children = (
+				1F1B564820CDE83F0090211A /* Filo-FinalUdacityProject.entitlements */,
 				1F85EF0220B0A47A008C081E /* AppDelegate.swift */,
-				1F85EF0420B0A47A008C081E /* ViewController.swift */,
-				1F85EF0620B0A47A008C081E /* Main.storyboard */,
+				1FF7012120C1E39C0092DBD0 /* GCD.swift */,
+				1F7679C520BE3BBB0063083F /* Model */,
+				1F7679C620BE3BC20063083F /* View */,
+				1F7679C720BE3BC80063083F /* Controller */,
 				1F85EF0C20B0A47C008C081E /* Assets.xcassets */,
-				1F85EF0E20B0A47C008C081E /* LaunchScreen.storyboard */,
 				1F85EF1120B0A47C008C081E /* Info.plist */,
-				1F85EF0920B0A47A008C081E /* Filo_FinalUdacityProject.xcdatamodeld */,
 			);
 			path = "Filo-FinalUdacityProject";
+			sourceTree = "<group>";
+		};
+		CAEFE004628D3017CF4EAE3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77B68DEA9E5ABCAD48E73570 /* Pods_Filo_FinalUdacityProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4B599230FBADB0D67D587D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DBA12D237FC1BDAF49567F8 /* Pods-Filo-FinalUdacityProject.debug.xcconfig */,
+				0FDF74A57E78CEBE0A860F87 /* Pods-Filo-FinalUdacityProject.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +141,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F85EF1420B0A47C008C081E /* Build configuration list for PBXNativeTarget "Filo-FinalUdacityProject" */;
 			buildPhases = (
+				7E1AA0562D220A8AF32F7516 /* [CP] Check Pods Manifest.lock */,
 				1F85EEFB20B0A47A008C081E /* Sources */,
 				1F85EEFC20B0A47A008C081E /* Frameworks */,
 				1F85EEFD20B0A47A008C081E /* Resources */,
+				5F5586D87AA678D38904F3AD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -99,6 +168,11 @@
 				TargetAttributes = {
 					1F85EEFE20B0A47A008C081E = {
 						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -133,14 +207,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5F5586D87AA678D38904F3AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Filo-FinalUdacityProject/Pods-Filo-FinalUdacityProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Filo-FinalUdacityProject/Pods-Filo-FinalUdacityProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E1AA0562D220A8AF32F7516 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Filo-FinalUdacityProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1F85EEFB20B0A47A008C081E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F85EF0B20B0A47A008C081E /* Filo_FinalUdacityProject.xcdatamodeld in Sources */,
-				1F85EF0520B0A47A008C081E /* ViewController.swift in Sources */,
+				1FF7012220C1E39C0092DBD0 /* GCD.swift in Sources */,
+				1F7679C420BE27F60063083F /* CoinTableViewCell.swift in Sources */,
+				1F1B68BF20B3345400132378 /* CoinModel.swift in Sources */,
+				1F85EF0520B0A47A008C081E /* CoinTableViewController.swift in Sources */,
+				1F1B564520CDC66F0090211A /* CoinRealmData.swift in Sources */,
 				1F85EF0320B0A47A008C081E /* AppDelegate.swift in Sources */,
+				1F06A69320C6CBFE00715738 /* CoinDetailViewController.swift in Sources */,
+				1FF7012020C1E2F10092DBD0 /* Alerts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +402,10 @@
 		};
 		1F85EF1520B0A47C008C081E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DBA12D237FC1BDAF49567F8 /* Pods-Filo-FinalUdacityProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Filo-FinalUdacityProject/Filo-FinalUdacityProject.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8M59PH3Z86;
 				INFOPLIST_FILE = "Filo-FinalUdacityProject/Info.plist";
@@ -300,8 +422,10 @@
 		};
 		1F85EF1620B0A47C008C081E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FDF74A57E78CEBE0A860F87 /* Pods-Filo-FinalUdacityProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Filo-FinalUdacityProject/Filo-FinalUdacityProject.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8M59PH3Z86;
 				INFOPLIST_FILE = "Filo-FinalUdacityProject/Info.plist";
@@ -338,19 +462,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		1F85EF0920B0A47A008C081E /* Filo_FinalUdacityProject.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				1F85EF0A20B0A47A008C081E /* Filo_FinalUdacityProject.xcdatamodel */,
-			);
-			currentVersion = 1F85EF0A20B0A47A008C081E /* Filo_FinalUdacityProject.xcdatamodel */;
-			path = Filo_FinalUdacityProject.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 1F85EEF720B0A47A008C081E /* Project object */;
 }

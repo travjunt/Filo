@@ -1,28 +1,13 @@
 # Filo 
 
-The purpose of this application is to allow a user to view cryptocurrency information such as Symbol, Price, Rank, Marketcap, and name. 
+The purpose of this application is to allow a user to view cryptocurrency information such as Symbol, Name, Price, Rank, Marketcap, 24hr Volume, and Total Supply. The information is retrieved from coinmarketcap.com's API and uses the Realm Database to persist and display the data.  
 
-The information is displayed in a tableView. 
+The information is displayed in a tableView. A user can tap on a given cell to view more information about that cryptocurrency.
 
 If the user would like to view the most updated information, the user can tap the refresh button in the navigation bar which will make a new network request and reload the table view with the updated data. 
 
-To compile the app, download the .zip and open the project in xcode. Then press the play button in xcode to build and run the app. 
+## Installation
 
+Git clone:  `git clone git@github.com:travjunt/Filo.git` or ![Download .zip](https://github.com/travjunt/Filo/archive/\master.zip)
 
-
-## iPhone X Simulator Realm DB filepath 
-```
-
-(lldb) po Realm.Configuration.defaultConfiguration.fileURL
-po Realm.Configuration.defaultConfiguration.fileURL▿ Optional<URL>
-▿ some : file:///Users/travis/Library/Developer/CoreSimulator/Devices/837B1F82-BA33-458C-A424-BB41F9A7EEE4/data/Containers/Data/Application/DCCBCF1D-4CEE-4BF3-A9ED-A9CF0ADB377B/Documents/default.realm
-- _url : file:///Users/travis/Library/Developer/CoreSimulator/Devices/837B1F82-BA33-458C-A424-BB41F9A7EEE4/data/Containers/Data/Application/DCCBCF1D-4CEE-4BF3-A9ED-A9CF0ADB377B/Documents/default.realm
-
-▿ Optional<URL>
-▿ some : file:///Users/travis/Library/Developer/CoreSimulator/Devices/837B1F82-BA33-458C-A424-BB41F9A7EEE4/data/Containers/Data/Application/DCCBCF1D-4CEE-4BF3-A9ED-A9CF0ADB377B/Documents/default.realm
-- _url : file:///Users/travis/Library/Developer/CoreSimulator/Devices/837B1F82-BA33-458C-A424-BB41F9A7EEE4/data/Containers/Data/Application/DCCBCF1D-4CEE-4BF3-A9ED-A9CF0ADB377B/Documents/default.realm
-
-(lldb) 
-
-```
-
+To compile the app,  open the .xcworkspace file. Choose a simulator or connect a device, click "Run".

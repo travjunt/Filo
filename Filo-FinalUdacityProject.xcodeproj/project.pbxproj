@@ -10,6 +10,7 @@
 		1F06A69320C6CBFE00715738 /* CoinDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F06A69220C6CBFE00715738 /* CoinDetailViewController.swift */; };
 		1F1B564520CDC66F0090211A /* CoinRealmData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1B564420CDC66F0090211A /* CoinRealmData.swift */; };
 		1F1B68BF20B3345400132378 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1B68BE20B3345400132378 /* CoinModel.swift */; };
+		1F45FB5E20E6D8FC00A022F7 /* CoinCellRounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F45FB5D20E6D8FC00A022F7 /* CoinCellRounded.swift */; };
 		1F7679C420BE27F60063083F /* CoinTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7679C320BE27F60063083F /* CoinTableViewCell.swift */; };
 		1F85EF0320B0A47A008C081E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F85EF0220B0A47A008C081E /* AppDelegate.swift */; };
 		1F85EF0520B0A47A008C081E /* CoinTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F85EF0420B0A47A008C081E /* CoinTableViewController.swift */; };
@@ -27,6 +28,7 @@
 		1F1B564420CDC66F0090211A /* CoinRealmData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRealmData.swift; sourceTree = "<group>"; };
 		1F1B564820CDE83F0090211A /* Filo-FinalUdacityProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Filo-FinalUdacityProject.entitlements"; sourceTree = "<group>"; };
 		1F1B68BE20B3345400132378 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
+		1F45FB5D20E6D8FC00A022F7 /* CoinCellRounded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCellRounded.swift; sourceTree = "<group>"; };
 		1F7679C320BE27F60063083F /* CoinTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinTableViewCell.swift; sourceTree = "<group>"; };
 		1F85EEFF20B0A47A008C081E /* Filo-FinalUdacityProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Filo-FinalUdacityProject.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F85EF0220B0A47A008C081E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 		1F7679C620BE3BC20063083F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1F45FB5D20E6D8FC00A022F7 /* CoinCellRounded.swift */,
 				1F7679C320BE27F60063083F /* CoinTableViewCell.swift */,
 				1FF7011F20C1E2F10092DBD0 /* Alerts.swift */,
 				1F85EF0620B0A47A008C081E /* Main.storyboard */,
@@ -256,6 +259,7 @@
 				1FF7012220C1E39C0092DBD0 /* GCD.swift in Sources */,
 				1F7679C420BE27F60063083F /* CoinTableViewCell.swift in Sources */,
 				1F1B68BF20B3345400132378 /* CoinModel.swift in Sources */,
+				1F45FB5E20E6D8FC00A022F7 /* CoinCellRounded.swift in Sources */,
 				1F85EF0520B0A47A008C081E /* CoinTableViewController.swift in Sources */,
 				1F1B564520CDC66F0090211A /* CoinRealmData.swift in Sources */,
 				1F85EF0320B0A47A008C081E /* AppDelegate.swift in Sources */,

@@ -7,5 +7,5 @@ target 'Filo-FinalUdacityProject' do
 
   # Pods for Filo-FinalUdacityProject
   pod 'RealmSwift'
-
+  pod 'SnapKit'
 end

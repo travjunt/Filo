@@ -10,10 +10,14 @@ import Foundation
 import UIKit
 import RealmSwift
 import Realm
+import SnapKit
 
 class CoinTableViewController: UITableViewController {
     
     var coins: [Coin] = []
+
+    lazy var selectedCoin = self.coins
+    
     let realm = try! Realm()
     let results = try! Realm().objects(Coin.self)
     var notificationToken: NotificationToken?
@@ -40,7 +44,6 @@ class CoinTableViewController: UITableViewController {
         try! realm.write {
             realm.deleteAll()
         }
-        
         getCoinData()        
         coinTableView.reloadData()
     }
@@ -80,22 +83,35 @@ extension CoinTableViewController {
     }
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 50
+        return 60
     }
+    
+
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "coinCell", for: indexPath) as! CoinTableViewCell
         let coin = results[indexPath.row]
             cell.symbolLabel?.text = coin.symbol
+            cell.nameLabel?.text = coin.name
             cell.priceLabel?.text = "$\(coin.price)"
+        
         return cell
     }
+//    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+//        guard let crypto = cryptos?[indexPath.row] else { return }
+//        let vc = CryptoDetailViewController(crypto)
+//        navigationController?.pushViewController(vc, animated: true)
+//        tableView.deselectRow(at: indexPath, animated: true)
+//    }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let coin = results[indexPath.row]
-        let controller = storyboard!.instantiateViewController(withIdentifier: "CoinDetailViewController") as! CoinDetailViewController
-        controller.coin = coin
+        let controller = CoinDetailViewController(coin)
+        //let coin = results[indexPath.row]
+//        let controller = storyboard!.instantiateViewController(withIdentifier: "CoinDetailViewController") as! CoinDetailViewController
+//        controller.coin = coin
         navigationController!.pushViewController(controller, animated: true)
+        tableView.deselectRow(at: indexPath, animated: true)
     }
 }

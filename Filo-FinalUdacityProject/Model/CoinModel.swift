@@ -8,7 +8,7 @@
 
 import Foundation
 import CoreData
-import RealmSwift
+import RealmSwift 
 import Realm
 
 class CoinApiClient {

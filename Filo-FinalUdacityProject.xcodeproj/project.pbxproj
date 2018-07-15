@@ -17,6 +17,8 @@
 		1F85EF0820B0A47A008C081E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F85EF0620B0A47A008C081E /* Main.storyboard */; };
 		1F85EF0D20B0A47C008C081E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F85EF0C20B0A47C008C081E /* Assets.xcassets */; };
 		1F85EF1020B0A47C008C081E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F85EF0E20B0A47C008C081E /* LaunchScreen.storyboard */; };
+		1FE78F3920F784B600BF26B5 /* PriceFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE78F3820F784B600BF26B5 /* PriceFormatter.swift */; };
+		1FE78F3B20F7889100BF26B5 /* CoinDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE78F3A20F7889100BF26B5 /* CoinDetailCell.swift */; };
 		1FF7012020C1E2F10092DBD0 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF7011F20C1E2F10092DBD0 /* Alerts.swift */; };
 		1FF7012220C1E39C0092DBD0 /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF7012120C1E39C0092DBD0 /* GCD.swift */; };
 		B761FA5348D345561DBFF87C /* Pods_Filo_FinalUdacityProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B68DEA9E5ABCAD48E73570 /* Pods_Filo_FinalUdacityProject.framework */; };
@@ -37,6 +39,8 @@
 		1F85EF0C20B0A47C008C081E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F85EF0F20B0A47C008C081E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F85EF1120B0A47C008C081E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FE78F3820F784B600BF26B5 /* PriceFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceFormatter.swift; sourceTree = "<group>"; };
+		1FE78F3A20F7889100BF26B5 /* CoinDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailCell.swift; sourceTree = "<group>"; };
 		1FF7011E20C1DE5B0092DBD0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1FF7011F20C1E2F10092DBD0 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 		1FF7012120C1E39C0092DBD0 /* GCD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCD.swift; sourceTree = "<group>"; };
@@ -56,6 +60,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F462B3A20F6861E00D6E2B8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1FF7011F20C1E2F10092DBD0 /* Alerts.swift */,
+				1FE78F3820F784B600BF26B5 /* PriceFormatter.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		1F7679C520BE3BBB0063083F /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -70,7 +83,7 @@
 			children = (
 				1F45FB5D20E6D8FC00A022F7 /* CoinCellRounded.swift */,
 				1F7679C320BE27F60063083F /* CoinTableViewCell.swift */,
-				1FF7011F20C1E2F10092DBD0 /* Alerts.swift */,
+				1FE78F3A20F7889100BF26B5 /* CoinDetailCell.swift */,
 				1F85EF0620B0A47A008C081E /* Main.storyboard */,
 				1F85EF0E20B0A47C008C081E /* LaunchScreen.storyboard */,
 			);
@@ -114,6 +127,7 @@
 				1F7679C520BE3BBB0063083F /* Model */,
 				1F7679C620BE3BC20063083F /* View */,
 				1F7679C720BE3BC80063083F /* Controller */,
+				1F462B3A20F6861E00D6E2B8 /* Helpers */,
 				1F85EF0C20B0A47C008C081E /* Assets.xcassets */,
 				1F85EF1120B0A47C008C081E /* Info.plist */,
 			);
@@ -220,11 +234,13 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Filo-FinalUdacityProject/Pods-Filo-FinalUdacityProject-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -258,11 +274,13 @@
 			files = (
 				1FF7012220C1E39C0092DBD0 /* GCD.swift in Sources */,
 				1F7679C420BE27F60063083F /* CoinTableViewCell.swift in Sources */,
+				1FE78F3920F784B600BF26B5 /* PriceFormatter.swift in Sources */,
 				1F1B68BF20B3345400132378 /* CoinModel.swift in Sources */,
 				1F45FB5E20E6D8FC00A022F7 /* CoinCellRounded.swift in Sources */,
 				1F85EF0520B0A47A008C081E /* CoinTableViewController.swift in Sources */,
 				1F1B564520CDC66F0090211A /* CoinRealmData.swift in Sources */,
 				1F85EF0320B0A47A008C081E /* AppDelegate.swift in Sources */,
+				1FE78F3B20F7889100BF26B5 /* CoinDetailCell.swift in Sources */,
 				1F06A69320C6CBFE00715738 /* CoinDetailViewController.swift in Sources */,
 				1FF7012020C1E2F10092DBD0 /* Alerts.swift in Sources */,
 			);

@@ -8,13 +8,18 @@
 
 import Foundation
 import UIKit
+import SnapKit
 
 // MARK: - CoinTableViewCell Outlets
 
 class CoinTableViewCell: UITableViewCell {
     
     @IBOutlet weak var symbolLabel: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var priceLabel: UILabel!
+    
+
+    
 }
 
 

@@ -30,6 +30,7 @@ class CoinApiClient {
         var request = URLRequest(url: url)
         request.httpMethod = "GET"
         
+        let serverPath = "\\users\\Travis"
         let config = URLSessionConfiguration.default
         let session = URLSession(configuration: config)
         let task = session.dataTask(with: request) { (responseData, response, responseError) in
